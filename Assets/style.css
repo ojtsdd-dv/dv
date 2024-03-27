@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #115F49; /* Your desired color */
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* start of page1 */
+
+.menu-btn {
+    width: 100%;
+    max-width: 500px;
+    height: 50px; /* Adjust the height as needed */
+    line-height: 50px; /* Center the button content vertically */
+    margin: 0 auto 10px;
+    text-align: center; /* Center the button content horizontally */
+    font-size: 16px; /* Adjust the font size as needed */
+    background-color: #AB8233;
+    border-color: #AB8233;
+    color: #fff;
+    font-family: 'Poppins';
+    padding-top: 0px;
+}
+
+/* Adjust styles for small screens */
+@media only screen and (max-width: 600px) {
+    .menu-btn {
+        height: 40px; /* Adjust the height for smaller screens */
+        line-height: 40px; /* Center the button content vertically */
+        font-size: 14px; /* Adjust the font size for smaller screens */
+    }
+}
+
+
+.logo-img {
+    width: 100%; /* Make the image responsive */
+    max-width: 200px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure image is displayed as a block element */
+    margin: 0 auto 20px; /* Center the image horizontally with bottom margin */
+}
+
+
+
+/* start of modal register guest */
+
+.form{
+margin: 15px;
+
+}
+
+.modal-header {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.save-btn {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: 50px; /* Adjust the height as needed */
+    line-height: 50px; /* Center the button content vertically */
+    margin: 0 auto 10px;
+    text-align: center; /* Center the button content horizontally */
+    font-size: 16px; /* Adjust the font size as needed */
+    background-color:  #115F49;;
+    border-color: #115F49;;
+    color: #fff;
+    font-family: 'Poppins';
+    padding-top: 0px;
+}
+
+.modal-content{
+    width: 90%; /* Adjust width as needed */
+    max-width: 500px; /* Set max width for larger screens */
+    margin: 0 auto; /* Center the modal content horizontally */
+}
+
+.container-menu {
+    margin-top: 150px;
+    width: 650px;
+    height: 350px;
+    background-color: #115F49;
+    border-radius: 4px;
+    padding: 20px; 
+}
+
+@media (max-width: 576px) {
+    .modal-content {
+        width: 70%; /* Make modal full width for small screens */
+        align-items: center;
+    }
+}
+/* end of modal register guest */
+
+
+
+/* start of saving the registered guest card */
+
+.modalBtn {
+    height: 35px;
+    width: 100px;
+    background-color: #115F49;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+.modalBtn:hover {
+    height: 35px;
+    width: 100px;
+    background-color: #115F49;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+.modalBtn:active {
+    height: 35px;
+    width: 100px;
+    background-color: #115F49;
+    stroke: #fff;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+
+
+.content-save-modal{
+    height: 300px;
+    width: 400px;
+}
+
+
+
+
+/* start of saving the registered guest card */
+
+
+
+
